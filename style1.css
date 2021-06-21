@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(81, 83, 17, 1) 0%, rgba(222, 228, 43, 1) 0%, rgba(193, 210, 148, 1) 79%, rgba(117, 197, 222, 1) 100%, rgba(115, 220, 145, 1) 100%, rgba(216, 219, 100, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo,
+#image {
+    border: 1px solid gray;
+    margin: 20px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0.8px gray;
+}
+
+.box ul {
+    /* border: 1px solid blue; */
+    display: flex;
+    margin: 20px 15px;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+ul li a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+/* -----------------------------------------------movie images poster-------------------------------------------------------- */
+.new_movie_section {
+    /* border: 1px solid red; */
+    color: white
+}
+
+.new_movie_section h3 {
+    /* border:1px solid yellow; */
+    border-bottom: 1px solid gray;
+    margin: 0px 35px;
+    padding: 10px;
+
+}
+
+.photo_text {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 30px;
+
+}
+
+.image {
+    /* border:1px solid greenyellow; */
+    position: relative;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+
+.bottom_center {
+    /* border:1px solid hotpink; */
+    position: absolute;
+    bottom: 8px;
+    left: 35%;
+    color: white;
+}
+
+.bottom_center2 {
+    /* border:1px solid hotpink; */
+    position: absolute;
+    bottom: -15px;
+    left: 25%;
+    color: white;
+}
+
+.image_text {
+    border: 1px solid red;
+    /* background-color: red; */
+}
+
+
+/* -------------------------------------------footer-------------------------------------------------------------------  */
+footer {
+    /* border: 1px solid red; */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(81, 83, 17, 1) 0%, rgba(222, 228, 43, 1) 0%, rgba(193, 210, 148, 1) 79%, rgba(117, 197, 222, 1) 100%, rgba(115, 220, 145, 1) 100%, rgba(216, 219, 100, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.foot {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* .foot img {
+border: 1px solid yellow;
+} */
+
+.foot p {
+    /* border: 1px solid yellow; */
+    margin-left: 15px;
+}
